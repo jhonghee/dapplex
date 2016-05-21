@@ -8,9 +8,16 @@
 		"scripts": ["background.js"]
 	},
 
-	"permissions": ["tabs"],
+	"permissions": ["tabs", "contextMenus"],
+	"icons": {
+		"16": "icon_18.png",
+		"32": "icon_32.png",
+		"64": "icon_64.png",
+		"128": "icon_128.png"
+	},
 	"browser_action": {
 		"default_icon": "icon_32.png",
-		"default_title": "Dynamic Application Extender"
+		"default_title": "Dynamic Application Extender",
+		"default_popup": "popup.html"
 	}
 }
