@@ -1,7 +1,8 @@
 module.exports = {
 	context: __dirname + "/src",
 	entry: {
-		background: './background.js'
+		background: './background.js',
+		popup: './popup/App.js'
 	},
 	output: {
 		path: "./",
